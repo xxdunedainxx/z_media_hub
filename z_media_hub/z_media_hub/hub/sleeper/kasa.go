@@ -1,0 +1,5 @@
+package sleeper
+
+func KillKasaOutlet(){
+	
+}

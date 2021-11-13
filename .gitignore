@@ -1,3 +1,7 @@
+# build output 
+z_media_hub/z_media_hub/build
+
+*.log
 # Binaries for programs and plugins
 *.exe
 *.exe~

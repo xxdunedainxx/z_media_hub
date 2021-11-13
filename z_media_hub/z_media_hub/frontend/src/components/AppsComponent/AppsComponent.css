@@ -1,0 +1,18 @@
+.appClickable {
+  max-width: 10%;
+  max-height: 10%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.appsComponent {
+  background-color: #ccccff;
+  border-radius: 1%;
+  width: 75%;
+  border-color:white;
+  border: solid 0.3em;
+}
+
+.appsComponentHeader{
+  color: black;
+}
