@@ -5,7 +5,7 @@
   "name": "Zach McFadden",
   "email": "zrmmaster92@gmail.com"
  },
- "version": "0.1.0",
+ "version": "0.0.1",
  "binaryname": "z_media_hub",
  "frontend": {
   "dir": "frontend",

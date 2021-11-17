@@ -24,7 +24,12 @@ func RenderApplication(hostOS string, application string){
 	cmdFormatted := fmt.Sprintf("%s/scripts/%s/open.sh", path, hostOS)
 
 	cmd := exec.Command(cmdFormatted, application)
-	cmd.Run()
+	out, err := cmd.Output()
+  if err != nil {
+      util.LogError(fmt.Sprintf("Error render app: %s", err))
+  } else {
+		util.LogInfo(fmt.Sprintf("Render app output: %s", out))
+	}
 }
 
 func Netflix(){

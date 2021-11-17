@@ -1,3 +1,5 @@
+#!/bin/bash
+
 wails serve
 npm run serve
 

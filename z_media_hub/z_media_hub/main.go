@@ -5,6 +5,8 @@ import (
   "github.com/wailsapp/wails"
   "z_media_hub/util"
   "z_media_hub/hub"
+  "runtime"
+  "fmt"
 )
 
 func basic() string {
@@ -19,7 +21,8 @@ var css string
 
 func main() {
 	util.Setup()
-
+	util.LogInfo("Start App!!")
+	util.LogInfo(fmt.Sprintf("OS Detected: %s", runtime.GOOS))
   app := wails.CreateApp(&wails.AppConfig{
     Width:  1024,
     Height: 768,

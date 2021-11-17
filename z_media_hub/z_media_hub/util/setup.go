@@ -8,4 +8,5 @@ import (
 
 func Setup() {
 	log.Println("Start project...")
+	initLogger()
 }
